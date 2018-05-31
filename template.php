@@ -32,6 +32,13 @@
       background-color: #f1f1f1;
       height: 100%;
     }
+
+    .imgCenter {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
     
     /* Set black background color, white text and some padding */
     footer {
@@ -85,7 +92,7 @@
   <div class="row content">
     <div class="col-sm-2 sidenav">   
     </div>
-    <div class="col-sm-8 text-left"> 
+    <div class="col-sm-8"> 
 	    <?php echo "$midle";?>
     </div>
     <div class="col-sm-2 sidenav">
