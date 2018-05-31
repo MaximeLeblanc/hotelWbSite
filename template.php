@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+      function initMap() {
+        var uluru = {lat: 35.71563329999999, lng: -0.6094011999999793};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGN00ngw5XXYuWIUq6CvGHCpOPbPGVVg8&callback=initMap">
+    </script>
+<style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
   <title><?php echo "$title";?></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">

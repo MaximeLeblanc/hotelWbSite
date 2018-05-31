@@ -1,5 +1,5 @@
 <?php $title = "Accueil";
-$midle = "Ici le milieu de la page";
+$midle = '<h3>Adresse</h3>
+    <div id="map"></div>';
 require_once "template.php"; 
 ?>
-
