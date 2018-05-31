@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php $title="Galerie";
-$midle = '<div id="myCarousel" class="carousel slide" data-ride="carousel">
+$midle = '<div id="myCarousel" class="carousel slide vcenter" data-ride="carousel">
 <!-- Indicators -->
 <ol class="carousel-indicators">
   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -11,15 +11,21 @@ $midle = '<div id="myCarousel" class="carousel slide" data-ride="carousel">
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
   <div class="item active">
-    <img src="pictures/logo/logoblack.png" alt="Logo 1" height="100px" />
+    <img src="pictures/logo/logoblack.png" alt="Logo 1" class="imgCenter">
+    <div class="carousel-caption">
+    </div>
   </div>
 
   <div class="item">
-    <img src="pictures/logo/logocaca.png" alt="Logo 2" height="100px" />
+    <img src="pictures/logo/logocaca.png" alt="Logo 2" class="imgCenter">
+    <div class="carousel-caption">
+    </div>
   </div>
 
   <div class="item">
-    <img src="pictures/logo/logotoutbo.png" alt="Logo 3" height="100px" />
+    <img src="pictures/logo/logotoutbo.png" alt="Logo 3" class="imgCenter">
+    <div class="carousel-caption">
+    </div>
   </div>
 </div>
 
